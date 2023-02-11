@@ -2,15 +2,15 @@ html{
     font-family: 'Rufina', sans-serif;
 }
 body{
-    background-color: #efefef;
+    background-color:#202020;
     margin: 0;
-    color: #034d6c;
+    color: #fff;
 }
 
 a{
     transition: color 0.3s ease;
     font-family: 'Rubik', sans-serif;
-    color: #034d6c;
+    color: #f84f07;
     text-decoration: none;
     font-weight: 700;
 }
@@ -22,7 +22,7 @@ a:hover{
 html body header {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #131313;
     box-shadow: 3px 0 5px #aaa;
     padding: 15px 30px;
     position: relative;
@@ -54,7 +54,7 @@ html body nav ul li a{
     position: relative;
     z-index: 1;
     display: flex;
-    background-color: #ffff;
+    background-color:#202020;
     padding: 20px 50px;
     justify-content: center;
 }
@@ -117,6 +117,10 @@ a.btn{
     padding: 20px 30px;
 }
 
+.convencer{
+    color: black;
+}
+
 .vert-pad{
     padding: 20px 0;
 }
@@ -127,6 +131,7 @@ a.btn{
     border: solid 1px #ddd;
     border-radius: 5px;
     padding: 20px 30px;
+    color: black;
 }
 
 .third{
